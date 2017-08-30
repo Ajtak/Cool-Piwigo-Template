@@ -16,8 +16,9 @@ Implementation of this template is still in development state.
 * Modern look
 
 ### Screenshots
-![picture alt](https://user-images.githubusercontent.com/4963819/29135020-03b75640-7d39-11e7-94fd-61489c2a546d.png "Dashboard")
+![picture alt](https://ctrlv.cz/shots/2017/08/30/EuUy.png "Add Gallery")
 ![picture alt](https://user-images.githubusercontent.com/4963819/29135020-03b75640-7d39-11e7-94fd-61489c2a546d.png "Add Gallery")
+
 
 ### Licence
 MIT
