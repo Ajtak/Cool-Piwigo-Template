@@ -1,0 +1,66 @@
+.content h2 {
+    margin: 0;
+    padding: 5px 0.5em 5px 0.5em;
+    text-align: right;
+    font-size: 120%;
+}
+
+.content-help {
+    background: #CDCDCD;
+}
+
+/* jQuery tooltips */
+.ui-tooltip {
+    padding: 8px;
+    position: absolute;
+    z-index: 9999999;
+    max-width: 300px;
+    -webkit-box-shadow: 0 0 5px #aaa;
+    box-shadow: 0 0 5px #aaa;
+}
+
+.cluetip-outer {
+    position: relative;
+    border: 1px solid #111111;
+    color: #dddddd;
+    background-color: #222222;
+    text-align: left;
+}
+
+.cluetip-title {
+    margin: 0 0 5px;
+    padding: 8px;
+    color: #666666;
+    background-color: #d3d3d3;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.cluetip-inner {
+    padding: 10px;
+}
+
+.HelpActions {
+    float: right;
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+    padding-left: 3px;
+}
+
+.HelpActions a {
+    border: 0;
+    margin: 0;
+}
+
+.HelpActions li {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    text-indent: 0pt;
+}
+
+.sidebar-menu > li > a {
+    font-weight: bold;
+}

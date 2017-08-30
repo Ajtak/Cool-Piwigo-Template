@@ -1,0 +1,14 @@
+{
+  "name": "cool",
+  "version": "1.0.0",
+  "description": "A Template for piwigo Administration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "admin-lte": "^2.3.11"
+  }
+}
