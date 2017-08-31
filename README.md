@@ -4,7 +4,7 @@
 Implementation of this template is still in development state. 
 
 ### Instalation
-1. Download release package from GitHub
+1. Download zip package from  GitHub
 1. Copy theme folder to `<PIWIGO Root>/admin/themes`
 1. Add *cool* theme to **admin.php** file in to array
 ``  $admin_themes = array('roma', 'clear', 'cool')``
@@ -16,8 +16,9 @@ Implementation of this template is still in development state.
 * Modern look
 
 ### Screenshots
-![picture alt](https://user-images.githubusercontent.com/4963819/29135020-03b75640-7d39-11e7-94fd-61489c2a546d.png "Dashboard")
-![picture alt](https://user-images.githubusercontent.com/4963819/29135020-03b75640-7d39-11e7-94fd-61489c2a546d.png "Add Gallery")
+![picture alt](https://ctrlv.cz/shots/2017/08/30/EuUy.png "Dashboard")
+![picture alt](https://ctrlv.cz/shots/2017/08/30/XQu5.png "Select album")
+
 
 ### Licence
 MIT
