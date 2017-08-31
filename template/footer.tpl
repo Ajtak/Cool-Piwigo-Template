@@ -24,7 +24,7 @@
 {combine_script id='jquery.tipTip' load='footer' path='themes/default/js/plugins/jquery.tipTip.minified.js'}
 
 {combine_script id='bootstrap' load='footer' path='admin/themes/cool/assets/bootstrap/js/bootstrap.min.js'}
-{combine_script id='app' load='footer'  require='bootstrap' path='admin/themes/cool/assets/dist/js/app.min.js'}
+{combine_script id='app' load='footer'  require='bootstrap' path='admin/themes/cool/assets/AdminLTE/dist/js/app.min.js'}
 
 
 <!-- BEGIN get_combined -->

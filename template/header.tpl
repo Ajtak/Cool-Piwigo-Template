@@ -8,8 +8,10 @@
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="shortcut icon" type="image/x-icon" href="{$ROOT_URL}{$themeconf.icon_dir}/favicon.ico">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
     {strip}
         {combine_css path="admin/themes/default/fontello/css/fontello.css" order=-10}
@@ -19,8 +21,8 @@
 
             {if $theme.load_css}
                 {combine_css path="admin/themes/cool/assets/bootstrap/css/bootstrap.min.css" order=-10}
-                {combine_css path="admin/themes/cool/assets/dist/css/AdminLTE.min.css" order=-10}
-                {combine_css path="admin/themes/cool/assets/dist/css/skins/skin-blue.min.css" order=-10}
+                {combine_css path="admin/themes/cool/assets/AdminLTE/dist/css/AdminLTE.min.css" order=-10}
+                {combine_css path="admin/themes/cool/assets/AdminLTE/dist/css/skins/skin-blue.min.css" order=-10}
                 {combine_css path="admin/themes/cool/theme.css" order=-10}
             {/if}
             {if !empty($theme.local_head)}
@@ -28,7 +30,7 @@
             {/if}
         {/foreach}
 
-        {combine_script id='jquery' path='admin/themes/cool/assets/plugins/jQuery/jquery-2.2.3.min.js'}
+        {combine_script id='jquery' path='admin/themes/cool/assets/jQuery/jquery.min.js'}
 
     {/strip}
 
