@@ -58,9 +58,8 @@
 
     <header class="main-header">
 
-        <a href="admin.php" class="logo">
-            <span class="logo-mini"><b>A</b>LT</span>
-            <span class="logo-lg">Piwigo</span>
+        <a href="admin.php" class="logo hidden-xs">
+            <span class="logo-lg">{$GALLERY_TITLE}</span>
         </a>
 
         <!-- Header Navbar -->
@@ -71,13 +70,12 @@
             </a>
             <!-- Navbar Right Menu -->
             <div class="navbar-custom-menu">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#"><i class="icon-user"></i>{$USERNAME}</a>
+                        <a href="#"><i class="icon-user hidden-xs"></i>{$USERNAME}</a>
                     </li>
                     <li>
-                        <a href="{$U_RETURN}" title="{'Visit Gallery'|translate}"><i
-                                    class="icon-eye"></i><span>{'Visit Gallery'|translate}</span></a>
+                        <a href="{$U_RETURN}" title="{'Visit Gallery'|translate}"><i class="icon-eye"></i><span class="hidden-xs">{'Visit Gallery'|translate}</span></a>
                     </li>
                     <li>
                         {strip}
@@ -85,13 +83,13 @@
                                title="{'Switch to clear or dark colors for administration'|translate}">
                                 {if $theme_id eq "clear"}
                                     <i class="icon-moon-inv"></i>
-                                    <span>Dark</span>
+                                    <span class="hidden-xs">Dark</span>
                                 {elseif $theme_id eq "roma"}
                                     <i class="icon-sun-inv"></i>
-                                    <span>Light</span>
+                                    <span class="hidden-xs">Light</span>
                                 {elseif $theme_id eq "cool"}
                                     <i class="icon-sun-inv"></i>
-                                    <span>Light</span>
+                                    <span class="hidden-xs">Cool</span>
 
                                 {/if}
 
@@ -100,10 +98,10 @@
                     </li>
                     <li>
                         <a class="tiptip" href="{$U_FAQ}" title="{'Instructions to use Piwigo'|@translate}"><i
-                                    class="icon-help-circled"></i><span>{'Help Me'|translate}</span></a>
+                                    class="icon-help-circled"></i><span class="hidden-xs">{'Help Me'|translate}</span></a>
                     </li>
                     <li>
-                        <a href="{$U_LOGOUT}"><i class="icon-logout"></i><span>{'Logout'|translate}</span></a>
+                        <a href="{$U_LOGOUT}"><i class="icon-logout"></i><span class="hidden-xs">{'Logout'|translate}</span></a>
                     </li>
 
                 </ul>
