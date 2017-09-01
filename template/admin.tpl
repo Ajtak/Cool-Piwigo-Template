@@ -3,8 +3,10 @@
 
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
-            <li class="header"><a href="{$U_ADMIN}">
-              <i class="icon-television"></i><span> {'Dashboard'|@translate}</span></a>
+            <li class="header">MENU</li>
+
+            <li><a href="{$U_ADMIN}">
+                    <i class="icon-television"></i><span> {'Dashboard'|@translate}</span></a>
             </li>
             <li class="treeview">
                 <a href="#"><i class="icon-picture"></i> <span> {'Photos'|@translate}</span>
