@@ -70,7 +70,7 @@
             </a>
             <!-- Navbar Right Menu -->
             <div class="navbar-custom-menu">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav">
                     <li>
                         <a href="#"><i class="icon-user hidden-xs"></i>{$USERNAME}</a>
                     </li>
