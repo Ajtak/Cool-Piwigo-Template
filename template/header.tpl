@@ -53,7 +53,7 @@
     <![endif]-->
 </head>
 
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="skin-blue">
 <div class="wrapper">
 
     <header class="main-header">
@@ -65,17 +65,14 @@
         <!-- Header Navbar -->
         <nav class="navbar navbar-static-top" role="navigation">
             <!-- Sidebar toggle button-->
-            <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
                 <span class="sr-only">Toggle navigation</span>
             </a>
             <!-- Navbar Right Menu -->
             <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#"><i class="icon-user hidden-xs"></i>{$USERNAME}</a>
-                    </li>
-                    <li>
-                        <a href="{$U_RETURN}" title="{'Visit Gallery'|translate}"><i class="icon-eye"></i><span class="hidden-xs">{'Visit Gallery'|translate}</span></a>
+                        <a href="{$U_RETURN}" title="{'View Gallery'|translate}"><i class="fa fa-external-link"></i><span class="hidden-xs"> {'View Gallery'|translate}</span></a>
                     </li>
                     <li>
                         {strip}
@@ -90,7 +87,6 @@
                                 {elseif $theme_id eq "cool"}
                                     <i class="icon-sun-inv"></i>
                                     <span class="hidden-xs">Cool</span>
-
                                 {/if}
 
                             </a>
@@ -98,12 +94,21 @@
                     </li>
                     <li>
                         <a class="tiptip" href="{$U_FAQ}" title="{'Instructions to use Piwigo'|@translate}"><i
-                                    class="icon-help-circled"></i><span class="hidden-xs">{'Help Me'|translate}</span></a>
+                                    class="icon-help-circled"></i><span class="hidden-xs">{'Help'|translate}</span></a>
                     </li>
                     <li>
-                        <a href="{$U_LOGOUT}"><i class="icon-logout"></i><span class="hidden-xs">{'Logout'|translate}</span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-user"></i>
+                            <span class="hidden-xs">{$USERNAME}</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="user-footer">
+                                <div class="pull-right">
+                                    <a href="{$U_LOGOUT}" class="btn btn-default btn-flat">{'Logout'|translate}</a>
+                                </div>
+                            </li>
+                        </ul>
                     </li>
-
                 </ul>
             </div>
         </nav>
