@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "admin-lte": "^2.3.11"
+    "admin-lte": "^2.4.18"
   }
 }
